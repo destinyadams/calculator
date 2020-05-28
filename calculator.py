@@ -1,4 +1,7 @@
+# import the functions built out in the functions.py
 import functions
+
+# Displays a menu option, Runs the script in a loop.
 
 while True:
     print ("What would you like to do?")
@@ -6,10 +9,11 @@ while True:
     print ("Select 2 for subtraction")
     print ("Select 3 for multiplication")
     print ("Select 4 for division")
+    #"conditional" or the escape
     print ("Enter Q to Exit")
 
 
-#user will have the ability to choose an option
+# Runs the script in a loop.
     choice = input("Enter your choice: ")
     if choice == 'q' or choice =='Q':
         break
@@ -32,4 +36,6 @@ while True:
 
     else:
         print("Invalid Choice")
+        
+  #seperates multipe lines
         print("\n")
